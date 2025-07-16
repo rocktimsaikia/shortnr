@@ -43,3 +43,15 @@ if err := doSomething(); err != nil {
     // Handle error
 }
 ```
+
+
+`panic` is a builtin function in Go to singal that something went wrong and the program can not continue normal execution anymore. It is a combination of logger (optinal) + stack trace + exit 1
+
+```go
+panic("Yo this is an unexpected error!")
+
+# The above statement will:
+# 1. print the passed string
+# 2. show the stack-trace of the panic invocation
+# 3. stop/exit the current running program
+```
