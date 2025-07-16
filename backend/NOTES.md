@@ -34,7 +34,7 @@ if score > 80 {
 }
 ```
 
-> !NOTE
+> [!NOTE]
 > `nil` is used for nullish values in Go istead of `null` or `None`
 
 We can also write one line `if` statements with "short statement"
