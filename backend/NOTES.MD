@@ -21,3 +21,25 @@ log.Println(p)
 // This dereferences the pointer and logs the value
 log.Println(*p)
 ```
+
+Writing conditional `if-else` statements in Go similar any other languages. Looks like a mix of Python and Javascript.
+
+```go
+if score > 80 {
+    log.Println("Best")
+} else if score > 50 {
+    log.Println("Moderate")
+} else {
+    log.Println("Not Good!")
+}
+```
+
+> !NOTE
+> `nil` is used for nullish values in Go istead of `null` or `None`.
+
+We can also write one line `if` statements with "short statement":
+```go
+if err := doSomething(); err != nil {
+    // Handle error
+}
+```
