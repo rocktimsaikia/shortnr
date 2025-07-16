@@ -22,7 +22,7 @@ log.Println(p)
 log.Println(*p)
 ```
 
-Writing conditional `if-else` statements in Go similar any other languages. Looks like a mix of Python and Javascript.
+Writing conditional `if-else` statements in Go is not similar to any other languages. Looks like a mix of Python and Javascript.
 
 ```go
 if score > 80 {
@@ -35,9 +35,9 @@ if score > 80 {
 ```
 
 > !NOTE
-> `nil` is used for nullish values in Go istead of `null` or `None`.
+> `nil` is used for nullish values in Go istead of `null` or `None`
 
-We can also write one line `if` statements with "short statement":
+We can also write one line `if` statements with "short statement"
 ```go
 if err := doSomething(); err != nil {
     // Handle error
