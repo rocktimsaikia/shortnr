@@ -10,6 +10,11 @@ let n int = 10
 // Here & is used to reference the memory address of the n variable
 let p *int = &n
 
+// Or the above can be done with 'short variable declaration operator' (:=)
+// Using this operator, Go infers the type of the variable implicitly
+n := 10
+p := &n
+
 // This returns the actual memory address
 log.Println(p)
 
